@@ -16,6 +16,10 @@ p{
     line-height: 22px;
 }
 
+h2{
+    font-weight: 500;
+}
+
 /* Utility  css*/
 .clearfix::after{
     content: "";
@@ -118,6 +122,8 @@ h1{
 /*******************
 * Site Main css
 ********************/
+
+/* 3 Columns section css */
 main .main_top, .main_3_columns{
     text-align: center;
     padding: 30px 0;
@@ -134,7 +140,7 @@ main .main_top, .main_3_columns{
     width: 33.33%;
 }
 
-.box_img_col{
+.main_3_columns .box_img_col{
     width: 100%;
     height: 150px;
 }
@@ -161,15 +167,15 @@ main .main_top, .main_3_columns{
     margin-bottom: 20px;
 }
 
-.col_left{
+.main_3_columns .col_left{
     padding-right: 30px;
 }
 
-.col_central{
+.main_3_columns .col_central{
     padding: 0 25px;
 }
 
-.col_right{
+.main_3_columns .col_right{
     padding-left: 30px;
 }
 
@@ -177,6 +183,35 @@ hr{
     border: 1px solid #E4E4E4;
 }
 
+/* 2 Columns section css */
+
+.main_2_columns .col{
+    float: left;
+    width: 50%;
+}
+
+.main_2_columns .box_img_col{
+    width: 100%;
+    height: 400px;
+    margin: 40px 0;
+}
+
+.main_2_columns .col_right{
+    padding: 50px 120px 0 50px;
+}
+
+.main_2_columns p{
+    margin: 20px 0;
+}
+
+.main_2_columns h2{
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+.main_2_columns a{
+    color: #5C8BBF;
+}
 /*******************
 * Site Footer css
 ********************/
