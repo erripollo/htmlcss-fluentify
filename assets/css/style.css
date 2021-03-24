@@ -212,6 +212,59 @@ hr{
 .main_2_columns a{
     color: #5C8BBF;
 }
+
 /*******************
 * Site Footer css
 ********************/
+
+footer nav{
+    height: 150px;
+}
+
+footer .footer_title, .footer_select, .footer_buttons{
+    float: left;
+    line-height: 150px;
+}
+
+footer .footer_title{
+    width: 50%;
+}
+
+footer .footer_select{
+    width: 25%;
+    text-align: right;
+}
+
+footer .footer_buttons{
+    width: 25%;
+    text-align: center;
+}
+
+.footer_select span{
+    color: #8A8A8A;
+    margin-right: 30px;
+}
+
+footer select{
+    font-size: 1rem;
+    color: #8A8A8A;
+    background-color: #D3D3D3;
+    border-style: none;
+    border-bottom: 1px solid #8A8A8A;
+    padding-right: 100px;
+    margin-right: 5px;
+}
+
+footer .footer_buttons ul, li{
+    list-style: none;
+}
+
+.footer_buttons ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer_buttons a{
+    text-decoration: none;
+    color: white;
+}
