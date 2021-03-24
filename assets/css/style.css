@@ -7,12 +7,13 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    min-width: 1400px;
 }
 
 /* Debug css */
 .dbg{
     width: 100%;
-    height: 500px;
+    height: 550px;
 }
 
 /* Utility  css*/
@@ -23,7 +24,7 @@ body{
 }
 
 .container{
-    width: 75%;
+    width: 80%;
     margin: auto;
 }
 
@@ -40,8 +41,14 @@ body{
     border-radius: 5px;
 }
 
+.btn_big{
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
 .btn_outline{
     border: 1px solid white;
+    margin-right: 15px;
 }
 
 .btn_solid{
@@ -53,6 +60,10 @@ body{
 ********************/
 header{
     color: white;
+    background-image: url('../img/background-header.png');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 110% 110%;
 }
 
 header nav{
@@ -60,12 +71,12 @@ header nav{
     padding-top: 10px;
 }
 
-header nav a{
+header a{
     color: white;
     text-decoration: none;
     font-size: 12px;
     text-transform: uppercase;
-    margin-left: 20px;
+    padding-right: 25px;
     line-height: 60px;
 }
 
@@ -89,6 +100,17 @@ nav > .menu_left{
 nav > .menu_right{
     width: 40%;
     text-align: right;
+}
+
+header .title{
+    margin: 150px 0 20px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 3.5rem;
+    display: inline-block;
+    width: 50%;
 }
 
 /*******************
